@@ -1,7 +1,7 @@
 # URP-WaterShaders
-## Procedural Water Surface and Underwater Caustics for Unity URP
+## Procedural Water Surface and Underwater Caustics with distortion for Unity URP
 
-### This project demonstrates two procedural shadergraphs, for creating immersive underwater caustics and water surface with distortion. Both shadergraphs are meant to be used as templates for your own shaders.
+### This project demonstrates three procedural shadergraphs, for creating immersive underwater caustics and water surface with distortion. All shadergraphs are meant to be used as templates for your own shaders.
 
 ### Demo Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=1XAbvmTKjJI" target="_blank"><img src="http://img.youtube.com/vi/1XAbvmTKjJI/0.jpg" alt="URP-WaterShaders" width="240" height="180" border="10" /></a></p>
@@ -10,7 +10,7 @@ https://youtu.be/1XAbvmTKjJI
 #### NOTE: In order to use the graphs in your own projects, export them as a unitypackage, rather than copying the shadergraph files. This will ensure the subgraph references are not lost
 
 ### Instructions
-1. Open the project with Unity (2019.4.3f1 and URP/Shadergraph 7.3.1 or later recommended) and open SampleScene.unity in the Scenes folder
+1. Open the project with Unity (2022.2.5f1 and URP/Shadergraph 14 or later recommended) and open SampleScene.unity in the Scenes folder
 2. Make sure the render pipeline is set to URP in Project Settings> Graphics
 3. Select the UniversalRenderPipelineAsset and make sure Opaque Texture and Depth Texture are both enabled.
 4. Under Player settings, select Linear color space for best color representation
@@ -20,6 +20,7 @@ https://youtu.be/1XAbvmTKjJI
     2. Water clarity, opacity, refraction (through distortion)
     3. Triplanar Underwater caustics
     4. Adjustable flow speeds for surface as well as caustics
+7. A full screen render feature is added for underwater tint and distortion. With URP 14+ You can also use a local volume for tint, but it will not include distortion.
 
 ### Instructions for HDRP
 1. Make sure the project is properly set up and all graphs are working.
