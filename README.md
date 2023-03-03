@@ -4,7 +4,8 @@
 ### This project demonstrates two procedural shadergraphs, for creating immersive underwater caustics and water surface with distortion. Both shadergraphs are meant to be used as templates for your own shaders.
 
 ### Demo Video
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=iY-JhXh99L0" target="_blank"><img src="http://img.youtube.com/vi/iY-JhXh99L0/0.jpg" alt="URP-WaterShaders" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=1XAbvmTKjJI" target="_blank"><img src="http://img.youtube.com/vi/1XAbvmTKjJI/0.jpg" alt="URP-WaterShaders" width="240" height="180" border="10" /></a></p>
+https://youtu.be/1XAbvmTKjJI
 
 #### NOTE: In order to use the graphs in your own projects, export them as a unitypackage, rather than copying the shadergraph files. This will ensure the subgraph references are not lost
 
